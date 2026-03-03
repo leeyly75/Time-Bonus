@@ -116,12 +116,12 @@ st.subheader("Daily Quests")
 
 c1, c2 = st.columns(2)
 with c1:
-    q1 = st.checkbox("10 min Coreen")
+    q1 = st.checkbox("Coréen")
     q2 = st.checkbox("Brosser les dents")
-    q3 = st.checkbox("Ranger ma chambre")
+    q3 = st.checkbox("Ranger 5 objets")
 with c2:
     q4 = st.checkbox("Faire mon lit")
-    q5 = st.checkbox("Preparer mon sac")
+    q5 = st.checkbox("Préparer mon sac et mes habits")
     q6 = st.checkbox("Bonus - Aide Maman")
 
 # Calcul des points
